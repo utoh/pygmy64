@@ -1,0 +1,21 @@
+( block 1  LOAD screen )
+
+2 LOAD
+
+3 LOAD
+
+( block 2  STAR)
+
+: STAR ( -)  '* EMIT ;
+
+( block 3  STARS)
+
+: STARS ( n -) FOR STAR NEXT ;
+
+( block 4  Examples)
+
+3 STARS CR
+
+4 STARS CR
+
+17 STARS CR

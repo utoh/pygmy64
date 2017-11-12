@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Edit the following line as necessary to run version 3 (or later) of
+#  Python
+
+/usr/bin/python3 /usr/local/bin/pygmykernel.py $*
