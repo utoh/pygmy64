@@ -5,5 +5,5 @@ The most recent released version is 17.10, released in October, 2017.  To downlo
 
 The master branch (and possibly other branches) is used for ongoing development work.
 
-See CONTRIBUTIONS.md for suggestions on how to report bugs, fixes, suggestions, etc.
+See CONTRIBUTING.md for suggestions on how to report bugs, fixes, suggestions, etc.
 
