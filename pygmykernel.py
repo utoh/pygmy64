@@ -294,7 +294,10 @@ def isNumber(s):
 
     '''
     if s.isdigit():
-        # it is a decimal integer
+        # it is a positive decimal integer
+        return (True, int(s))
+    elif s[:1] == '-' and s[1:].isdigit():
+        # it is a negative decimal integer
         return (True, int(s))
     elif (len(s) > 1) and (s[0] == "'"):
         return (True, ord(s[1]))
